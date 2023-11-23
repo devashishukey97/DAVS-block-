@@ -1,7 +1,0 @@
-DAVS block instructions:
-1.	Connect the positive port of the block to the model as a supply voltage.
-2.	Connect the negative port to the ground.
-3.	Provide the charge/discharge input current (A) in the block dialog box as an input parameter.
-4.	Initialize the cell parameters in the model using file provided with the block library.
-5.	You can change the value of the parameters according to your required cell parameters.
-6.	Provide pre-defined simulation time of 9984 seconds, to simulate the model through discharge, rest, charge, and rest cycle.
