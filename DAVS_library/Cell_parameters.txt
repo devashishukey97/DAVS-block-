@@ -1,0 +1,20 @@
+%% Constants
+F = 96485; % Faraday's constant (C/mol)
+k = 1; % unit conversion constant (Vm3/C)
+dt = 1; % time step for simulation
+
+%% Cathode Parameters
+R_pe = 5.22e-06; % particle radius (m)
+c_max_pe = 63104; % maximum concentration (mol/m3)
+c0_pe = 17038; % initial concentration (mol/m3)
+D_pe =  4e-15; % Diffusion coefficient (m2/s)
+Epsilon_pe = 0.665; % Active material volume fraction
+V_ed_pe = 7.764e-06; % Electrode volume (m3)
+
+%% Anode Parameters
+R_ne = 5.86e-06; % particle radius (m)
+c_max_ne = 33133; % maximum concentration (mol/m3)
+c0_ne = 29866; % initial concentration (mol/m3)
+D_ne =  3.3e-14; % Diffusion coefficient (m2/s)
+Epsilon_ne = 0.75; % Active material volume fraction
+V_ed_ne = 8.75e-06; % Electrode volume (m3)
